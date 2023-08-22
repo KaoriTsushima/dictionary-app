@@ -16,7 +16,14 @@ function App() {
         >
           Coded
         </a>{" "}
-        by Kaori Tsushima
+        by{" "}
+        <a
+          href="https://warm-lokum-7e18cc.netlify.app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Kaori Tsushima
+        </a>
       </footer>
     </div>
   );
