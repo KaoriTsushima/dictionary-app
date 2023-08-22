@@ -6,13 +6,7 @@ export default function Synonyms(props) {
         <p>
           <strong>Synonyms</strong>
         </p>
-        {props.synonyms.map(function (synonyms, index) {
-          <div key={index}>
-            <ul>
-              <li>{synonyms}</li>
-            </ul>
-          </div>;
-        })}
+        <p>{props.synonyms.join(", ")}</p>
       </div>
     );
   } else {
